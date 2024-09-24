@@ -15,12 +15,15 @@ def draw_boy(x, y):
 def run_top():
     print('TOP')
     
-    for x in range(0, 800, 10):
+    for x in range(0, 750, 10):
         draw_boy(x, 550)
-        pass
+    pass
 
 def run_right():
     print('RIGHT')
+    
+    for y in range(550, 0, -10):
+        draw_boy(800, y)
     pass
 
 def run_bottom():
@@ -55,7 +58,7 @@ def run_circle():
 
 while True:
     
-    run_circle()
+    #run_circle()
     run_rectangle()
     break
     
