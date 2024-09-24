@@ -2,6 +2,7 @@ from pico2d import *
 import math
 
 
+
 open_canvas()
 
 grass = load_image('grass.png')
@@ -94,7 +95,7 @@ def run_triangle():
 
 while True:
     
-    #run_circle()
+    run_circle()
     run_rectangle()
     run_triangle()
     
