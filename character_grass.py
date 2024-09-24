@@ -57,7 +57,11 @@ def run_tri_bottom():
     pass
 
 def run_tri_side_right():
-
+    x, y = 700, 50 
+    for d in range(0, 600, 10):
+        x = 700 - d * math.cos(math.radians(60))
+        y = 50 + d * math.sin(math.radians(60))
+        draw_boy(x, y)
     print('TSR')
     pass
 
@@ -80,7 +84,7 @@ def run_circle():
 def run_triangle():
     print('TRIANGLE')
 
-    run_tri_bottom()
+    #run_tri_bottom()
     run_tri_side_right()
     run_tri_side_left()
     
