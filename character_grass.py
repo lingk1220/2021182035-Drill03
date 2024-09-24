@@ -49,6 +49,18 @@ def run_rectangle():
     run_left()
     pass
 
+def run_tri_bottom():
+    print('TB')
+    pass
+
+def run_tri_side_right():
+    print('TSR')
+    pass
+
+def run_tri_side_left():
+    print('TSL')
+    pass
+    
 def run_circle():
     print('CIRCLE')
 
@@ -63,6 +75,11 @@ def run_circle():
 
 def run_triangle():
     print('TRIANGLE')
+
+    run_tri_bottom()
+    run_tri_side_right()
+    run_tri_side_left()
+    
     pass
 
 while True:
