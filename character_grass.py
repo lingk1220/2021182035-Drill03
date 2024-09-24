@@ -50,10 +50,14 @@ def run_rectangle():
     pass
 
 def run_tri_bottom():
+    for x in range(100, 700, 10):
+        draw_boy(x, 50)
     print('TB')
+    
     pass
 
 def run_tri_side_right():
+
     print('TSR')
     pass
 
