@@ -35,6 +35,9 @@ def run_bottom():
 
 def run_left():
     print('LEFT')
+
+    for y in range(50, 550, 10):
+        draw_boy(50, y)
     pass
 
 def run_rectangle():
