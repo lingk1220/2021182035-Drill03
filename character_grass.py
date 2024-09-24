@@ -41,7 +41,6 @@ def run_left():
     pass
 
 def run_rectangle():
-    print('RECTANGLE')
 
     run_top()
     run_right()
@@ -52,7 +51,7 @@ def run_rectangle():
 def run_tri_bottom():
     for x in range(100, 700, 10):
         draw_boy(x, 50)
-    print('TB')
+
     
     pass
 
@@ -62,7 +61,6 @@ def run_tri_side_right():
         x = 700 - d * math.cos(math.radians(60))
         y = 50 + d * math.sin(math.radians(60))
         draw_boy(x, y)
-    print('TSR')
     pass
 
 def run_tri_side_left():
@@ -72,11 +70,10 @@ def run_tri_side_left():
         x = 400 - d * math.cos(math.radians(60))
         y = oy - d * math.sin(math.radians(60))
         draw_boy(x, y)
-    print('TSL')
+
     pass
     
 def run_circle():
-    print('CIRCLE')
 
     r, cx, cy = 300, 800 // 2, 800 // 2
     
@@ -88,7 +85,6 @@ def run_circle():
     pass
 
 def run_triangle():
-    print('TRIANGLE')
 
     run_tri_bottom()
     run_tri_side_right()
@@ -99,8 +95,7 @@ def run_triangle():
 while True:
     
     #run_circle()
-    #run_rectangle()
+    run_rectangle()
     run_triangle()
-    break
     
 close_canvas()
